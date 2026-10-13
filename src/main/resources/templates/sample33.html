@@ -19,11 +19,11 @@
   </h3>
   <h2>ロールごとの表示情報の切り分け(Sample3-5)</h2>
   hasRoleを使うと，そのタグをログインユーザのロールごとに表示する/しないを切り分けることができる
-  <div sec:authorize="hasRole('ROLE_ADMIN')">
+  <div sec:authorize="hasRole('USER1')">
     <span>あなたは管理者ですね</span>
   </div>
 
-  <div sec:authorize="hasRole('ROLE_USER')">
+  <div sec:authorize="hasRole('USER2')">
     <div>あなたはユーザですね．</div>
   </div>
   <div>引き算を実行しましょう(Sample3-6)．</div>
