@@ -21,7 +21,7 @@ public class Sample31Controller {
   public String sample31() {
     return "sample31.html";
   }
- sample3-2
+  // sample3-2
 
   /**
    *
@@ -36,5 +36,10 @@ public class Sample31Controller {
     return "sample31.html";
   }
 
- main
+  @GetMapping("step3")
+  public String sample33() {
+    return "sample33.html";
+  }
+
+  // main
 }
