@@ -21,6 +21,7 @@ public class Sample31Controller {
   public String sample31() {
     return "sample31.html";
   }
+ sample3-2
 
   /**
    *
@@ -34,4 +35,6 @@ public class Sample31Controller {
     model.addAttribute("login_user", loginUser);
     return "sample31.html";
   }
+
+ main
 }
